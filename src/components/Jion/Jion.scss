@@ -1,0 +1,66 @@
+.jion {
+    display: flex;
+    padding: 0 2rem;
+    gap: 10rem;
+
+    .left-j {
+        color: #fff;
+        font-size: 3rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        position: relative;
+
+        hr {
+            position: absolute;
+            width: 10.5rem;
+            border: 2px solid #f48915;
+            border-radius: 20%;
+            margin: -10px;
+        }
+
+        div {
+            display: flex;
+            gap: 1rem;
+        }
+    }
+
+    .right-j {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+        .email-container {
+            display: flex;
+            gap: 3rem;
+            background-color: #f48915;
+            padding: 1rem 2rem;
+
+            input {
+                background: transparent;
+                border: none;
+                outline: none;
+                color: #D9D9D9;
+
+            }
+
+            .btn-j {
+                background-color: #f48915;
+                color: #FFF;
+            }
+
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .jion {
+        flex-direction: column;
+        gap: 1rem;
+      .left-j {
+        font-size: x-large;
+        flex-direction: column;
+      }
+      .right-j {
+        padding: 2rem;
+      }
+    }
+}
