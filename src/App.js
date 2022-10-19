@@ -1,5 +1,4 @@
 import './App.css';
-
 import Hero from './components/Hero/Hero';
 import Programs from "./components/Programs/Program"
 import Reason from './components/Reason/Reason';
